@@ -1,0 +1,6 @@
+.vercel
+node_modules/
+.env
+.env.example
+services/debug
+services/test
