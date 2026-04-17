@@ -1,6 +1,6 @@
 const { createClient } = require('@supabase/supabase-js');
 require('dotenv').config();
-
+//read
 // Service role client — full DB access, bypasses RLS
 // ONLY used server-side, NEVER expose to frontend
 const supabaseAdmin = createClient(
